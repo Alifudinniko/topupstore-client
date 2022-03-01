@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Ilustration from "./ilustration";
+import Ilustration from "./Ilustration";
 export default function MainBanner() {
   return (
     <section className="header pt-lg-60 pb-50">
