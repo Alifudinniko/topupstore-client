@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 export default function SignUpPhoto() {
   return (
     <section className="sign-up-photo mx-auto pt-lg-227 pb-lg-227 pt-130 pb-50">
@@ -55,13 +56,14 @@ export default function SignUpPhoto() {
             </div>
 
             <div className="button-group d-flex flex-column mx-auto">
-              <a
-                className="btn btn-create fw-medium text-lg text-white rounded-pill mb-16"
-                href="./sign-up-photo-success.html"
-                role="button"
-              >
-                Create My Account
-              </a>
+              <Link href="/sign-up-success">
+                <a
+                  className="btn btn-create fw-medium text-lg text-white rounded-pill mb-16"
+                  role="button"
+                >
+                  Create My Account
+                </a>
+              </Link>
 
               <a
                 className="btn btn-tnc text-lg color-palette-1 text-decoration-underline pt-15"
