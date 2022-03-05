@@ -18,9 +18,9 @@ export default function TransactionContent() {
           <div className="col-lg-12 col-12 main-content">
             <div id="list_status_title">
               <ButtonTab title="All Trx" active />
-              <ButtonTab title="Success" />
-              <ButtonTab title="Pending" />
-              <ButtonTab title="Failed" />
+              <ButtonTab title="Success" active={false} />
+              <ButtonTab title="Pending" active={false} />
+              <ButtonTab title="Failed" active={false} />
             </div>
           </div>
         </div>
