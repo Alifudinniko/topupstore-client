@@ -1,4 +1,4 @@
-import Category from "./category";
+import Category from "./Category";
 import TableRow from "./TableRow";
 
 export default function OverviewContent() {
