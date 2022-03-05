@@ -4,7 +4,7 @@ import SideBar from "../../components/organisms/SideBar";
 export default function Overview() {
   return (
     <>
-      <SideBar />
+      <SideBar activeMenu="overview" />
       <OverviewContent />
     </>
   );

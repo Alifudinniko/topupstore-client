@@ -15,7 +15,8 @@ interface MenuItemProps {
   href?: string;
 }
 export default function MenuItem(props: Partial<MenuItemProps>) {
-  const { title, icon, active, href = "" } = props;
+  const { title, icon, active } = props;
+  let { href = "" } = props;
   const classItem = cx({
     "nav-link": true,
     item: true,
