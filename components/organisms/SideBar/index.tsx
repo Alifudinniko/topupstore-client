@@ -1,6 +1,6 @@
 import Footer from "./Footer";
 import MenuItem from "./MenuItem";
-import Profile from "./profile";
+import Profile from "./Profile";
 
 export default function SideBar() {
   return (
